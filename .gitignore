@@ -1,0 +1,29 @@
+# Sensitive files
+server-key.pem
+*.pem
+
+# Terraform state and variables
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+
+# Ansible project variables
+project-vars.yaml
+
+# Ansible secrets and vaults
+*.vault
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Local-only files
+*.log
+.DS_Store
+
+# Exclude hosts file if you want to always auto-generate it (optional)
+# hosts
