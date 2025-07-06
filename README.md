@@ -108,6 +108,12 @@ ssh -i server-key.pem ec2-user@<EC2_PUBLIC_IP>
 - Docker images are always pulled fresh on deployment (`pull: always`).
 - For production, restrict security group rules as needed.
 
+**Don't have a Docker image to test?**
+If you need a sample Java Docker image, you can use this repo to create a JAR file and build a Docker image to upload to your Docker Hub:
+https://github.com/glenleach/Java-mysql-project
+
+![App Screenshot](https://github.com/glenleach/Java-mysql-project/blob/master/images/screenshot.PNG?raw=true)
+
 ## Cleanup
 To destroy all AWS resources:
 ```sh
