@@ -3,6 +3,8 @@
 **This project is for personal training purposes only as part of DevOps training for Techworld with Nana.**
 **It is not for redistribution or commercial use. All rights reserved.**
 
+![App Screenshot](https://github.com/glenleach/Java-mysql-project/blob/master/images/screenshot.PNG?raw=true)
+
 ## Project Structure
 
 ```
