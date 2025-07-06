@@ -74,13 +74,6 @@ docker_password: "your_dockerhub_password"
 
 ### 6. Run the Ansible Playbook
 
-**Don't have a Docker image to test?**
-If you need a sample Java Docker image, you can use this repo to create a JAR file and build a Docker image to upload to your Docker Hub:
-https://github.com/glenleach/Java-mysql-project
-
-![App Screenshot](https://github.com/glenleach/Java-mysql-project/blob/master/images/screenshot.PNG?raw=true)
-
-
 This installs Docker, Docker Compose, deploys your app stack, and logs in to Docker Hub:
 ```sh
 ansible-playbook -i hosts deploy-docker-ec2-user.yaml
